@@ -57,6 +57,7 @@ button {
     padding: 20px 30px;
     width: 200px;
     margin: 10px;
+    font-size: 18px;
 }
 
 button:hover {
@@ -80,8 +81,13 @@ main {
     background: radial-gradient(circle, rgba(164,219,219,1) 0%, rgba(255,255,255,1) 100%);    text-align: center;
 }
 
-/*TABLES-----------------------------------------------------*/
-table {
+footer {
+    background-color: darkcyan;
+    height: 40px;
+}
+
+/*HTML-TABLES-----------------------------------------------------*/
+#basictags table {
     border: 2px solid black;
     margin: 0 auto!important;
     font-family: monospace;
@@ -91,7 +97,41 @@ table {
     width: 90%;
 }
 
-table thead {
+#lessbasictags table, #tables table{
+    border: 2px solid black;
+    margin: 0 auto!important;
+    font-family: monospace;
+    font-size: large;
+    margin-bottom: 100px;
+    line-height: 1.5;
+    width: 60%;
+}
+
+/*CSS-TABLES-----------------------------------------------------*/
+
+#color table {
+    border: 2px solid black;
+    margin: 0 auto!important;
+    font-family: monospace;
+    font-size: large;
+    margin-bottom: 100px;
+    line-height: 1.5;
+    width: 90%;
+}
+
+#position table, #stbmb table{
+    border: 2px solid black;
+    margin: 0 auto!important;
+    font-family: monospace;
+    font-size: large;
+    margin-bottom: 100px;
+    line-height: 1.5;
+    width: 60%;
+}
+
+/*GENERAL-TABLES-------------------------------------------------*/
+
+table th {
     background-color: darkcyan;
 }
 
@@ -100,11 +140,13 @@ table tbody {
 }
 
 th {
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: bolder;
 }
 
 td {
     padding: 15px 40px!important;
+    font-size: 18px;
 }
 
 #tagcolor {
