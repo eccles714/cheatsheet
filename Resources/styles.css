@@ -33,6 +33,22 @@ header a {
     overflow: hidden;
 }
 
+.navbuttons {
+    margin: 75px;
+}
+
+#navhtml {
+    left: 0%;
+    width: 40%;
+    text-align: center;
+}
+
+#navcss {
+    left: 0%;
+    width: 40%;
+    text-align: center;
+}
+
 button {
     background-color:white;
     color:darkcyan;
@@ -40,6 +56,7 @@ button {
     border-radius: 40px;
     padding: 20px 30px;
     width: 200px;
+    margin: 10px;
 }
 
 button:hover {
@@ -68,6 +85,8 @@ table {
     font-size: large;
     margin-bottom: 100px;
     width: auto;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 table thead {
