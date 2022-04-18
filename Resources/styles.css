@@ -26,27 +26,54 @@ header a {
 }
 
 .title {
-    background: white;
-    width: 100%;
+    width: 1800px;
     height: 600px;
     margin: 0;
     overflow: hidden;
 }
 
+.title #navtitle {
+    height: 600px;
+    width: 900px;
+    position: relative;
+    display: inline;
+    float: right;
+}
+
+.title h1 {
+    position: relative;
+    margin: 16%;
+    text-align: center;
+    font-size: 60px;
+}
+
+.title h1 span{
+   font-size: 100px;
+}
+/*BUTTONS-----------------------------------------*/
+
 .navbuttons {
-    margin: 75px;
+    width: 900px;
+    height: 600px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
 }
 
 #navhtml {
-    left: 0%;
-    width: 40%;
+    height: 300px;
+    width: 450px;
     text-align: center;
+    display: inline-block;
+    font-size: 30px;
 }
 
 #navcss {
-    left: 0%;
-    width: 40%;
+    height: 300px;
+    width: 450px;
     text-align: center;
+    display: inline-block;
+    font-size: 30px;
 }
 
 button {
@@ -65,6 +92,8 @@ button:hover {
     color:white;
 }
 
+
+/*
 .title #navtitle {
     position: absolute;
     text-align: right;
@@ -75,7 +104,7 @@ button:hover {
     margin-right: 5%;
     font-size: 30px;
 }
-
+*/
 main {
     background: rgb(164,219,219);
     background: radial-gradient(circle, rgba(164,219,219,1) 0%, rgba(255,255,255,1) 100%);    text-align: center;
