@@ -33,18 +33,6 @@ header a {
     overflow: hidden;
 }
 
-#navhtml {
-    left: 0%;
-    width: 40%;
-    text-align: center;
-}
-
-#navcss {
-    left: 0%;
-    width: 40%;
-    text-align: center;
-}
-
 button {
     background-color:white;
     color:darkcyan;
