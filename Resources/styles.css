@@ -25,14 +25,14 @@ header a {
     padding: 10px;
 }
 
-.title {
+.titlebox {
     width: 1800px;
     height: 600px;
     margin: 0;
     overflow: hidden;
 }
 
-.title #navtitle {
+.titlebox #title {
     height: 600px;
     width: 900px;
     position: relative;
@@ -40,7 +40,7 @@ header a {
     float: right;
 }
 
-.title h1 {
+.titlebox h1 {
     position: relative;
     margin: 16%;
     text-align: center;
@@ -92,22 +92,8 @@ button:hover {
     color:white;
 }
 
-
-/*
-.title #navtitle {
-    position: absolute;
-    text-align: right;
-    width: 50%;
-    display: inline-block;
-    right: 0%;
-    top: 15%;
-    margin-right: 5%;
-    font-size: 30px;
-}
-*/
 main {
-    background: rgb(164,219,219);
-    background: radial-gradient(circle, rgba(164,219,219,1) 0%, rgba(255,255,255,1) 100%);    text-align: center;
+    background: radial-gradient(circle,rgba(255,255,255,1) 0%, rgba(164,219,219,1) 100%);    text-align: center;
 }
 
 footer {
