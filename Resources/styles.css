@@ -124,7 +124,7 @@ footer {
 
 /*CSS-TABLES-----------------------------------------------------*/
 
-#color table {
+#position table {
     border: 2px solid black;
     margin: 0 auto!important;
     font-family: monospace;
@@ -134,7 +134,7 @@ footer {
     width: 90%;
 }
 
-#position table, #stbmb table{
+#asdf table, #stbmb table{
     border: 2px solid black;
     margin: 0 auto!important;
     font-family: monospace;
